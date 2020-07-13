@@ -289,6 +289,10 @@ That's all our setup is ready
 
 Now as soon as the developer commit new code in the repository it will get automatically deployed in the production environment and if it will not work then developer will get informed through an email notification.
 
+Email notification
+
+![Email notification](https://github.com/surinder2000/Deploy-webapp-on-Kubernetes/blob/master/Email.png)
+
 Following is the Build pipeline view of the Jobs in Jenkins
 
 ![Build trigger](https://github.com/surinder2000/Deploy-webapp-on-Kubernetes/blob/master/pipeline.png)

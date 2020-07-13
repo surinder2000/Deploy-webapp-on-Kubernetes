@@ -24,7 +24,7 @@ Deploying web app on top of Kubernetes by integrating it with Git, Github, Docke
     docker volume create volume_name (in my case volume_name is jen)
     
    After this, setup jenkins, install required plugins like Git, Email notification and Build pipeline.
-### 3. Create a post-commit hooks in the git repository for pushing the code automatically after commit
+### 3. Create a post-commit hook in the git repository for pushing the code automatically after commit
 * Go to ./git/hooks from git repository and create one file named post-commit and add the following lines in it
 
       #!/bin/bash
@@ -267,6 +267,7 @@ To create php web server deployment put the following code in yaml file
 ![Execute shell](https://github.com/surinder2000/Deploy-webapp-on-Kubernetes/blob/master/job32.png)
 
 * In the Post-build Actions section select Editable Email notification and put the email address of developer, subject and message content (Note: We need to configure SMTP server for sending mail. For this go to Manage jenkins -> Configure -> Extended Email notification and put the details there) 
+
 This Post-build action trigger only if this job fails, if there is an issue in the site and not working properly and on failure it will send email to developer
 
 ![Post-build Action](https://github.com/surinder2000/Deploy-webapp-on-Kubernetes/blob/master/job33.png)

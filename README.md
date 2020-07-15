@@ -9,7 +9,7 @@ Deploying web app on top of Kubernetes by integrating it with Git, Github, Docke
 ### 1. Create Dockerfile for creating jenkins docker image
 * This is the Dockerfile code for creating jenkins docker image
 
-![Dockerfile code](https://github.com/surinder2000/Deploy-webapp-on-Kubernetes/blob/master/dockerfile.png)
+![Dockerfile code](https://github.com/surinder2000/Deploy-webapp-on-Kubernetes/blob/master/dockerfilecode.png)
 
 * Run the following command in the same directory to create jenkins docker image
 
